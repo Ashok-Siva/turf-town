@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="turftown">
+<listeners>
+ <listener class-name="pdf.Pdfwithireporter"/>
+ <listener class-name="pdf.ListenersDefinitionClass"/>
+</listeners>
+ <test name="testngTest"> 
+    <classes>
+      <class name="venue.venue"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
